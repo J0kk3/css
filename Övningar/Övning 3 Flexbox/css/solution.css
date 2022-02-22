@@ -1,0 +1,27 @@
+div
+{
+    border: solid 3px orange;
+    margin: 1rem;
+}
+.container-1
+{
+    background-color: rgb(243, 238, 191);
+    height: 400px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.container-2
+{
+    display: flex;
+    flex-direction: column;
+}
+.item-1
+{
+    background-color:paleturquoise;
+    flex-basis: 50%;
+}
+.item-2
+{
+    background-color: plum;
+    flex-basis:50%
+}

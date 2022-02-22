@@ -1,0 +1,92 @@
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section
+{
+    border:solid gray 10px;
+    border-radius: 15px;
+}
+
+p
+{
+    background-color: #1e3e97;
+    font-weight: bold;
+}
+
+blockquote
+{
+    margin: 0;
+}
+
+/*  alla <p> i blockquote */
+blockquote p
+{
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+/*  -???- */
+blockquote p::before
+{
+    content: '\201C';
+}
+
+/*  -???- */
+blockquote p::after
+{
+    content: '\201D';
+}
+
+h1
+{
+    font-size: 38px;
+    color: darkred;
+    background-color: teal;
+
+}
+
+/*välja flera element */
+h2, h3
+{
+    color:chocolate;
+}
+
+.kattartikel
+{
+    color:white;
+    border: dashed 5px pink;
+    border-radius: 15px;
+}
+article.kattartikel p
+{
+    border:dotted blue 20px;
+}
+/*det är denna som gäller*/
+article.kattartikel p
+{
+    border:dotted violet 20px;
+}
+/* pseudoklasser */
+a
+{
+    text-decoration: none;
+}
+
+a:visited
+{
+    color:red;
+}
+
+a:hover
+{
+    background-color: darkorchid;
+}
+
+img:hover
+{
+    border:solid black 5px;
+    border-radius: 15px;
+}

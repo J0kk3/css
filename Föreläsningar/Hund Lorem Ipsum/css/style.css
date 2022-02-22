@@ -1,0 +1,26 @@
+img
+{
+    border-radius: 15px;
+}
+
+.floatleft
+{
+    float:left;
+    margin-right:  2rem;
+    /* border: lawngreen 3px solid; */
+}
+
+.floatright
+{
+    float: right;
+    margin-left:  2rem;
+}
+
+
+article
+{
+    width: 30rem;
+    /* padding: 0 2rem 0; /* top, right&left, bottom  */
+    margin: 0 auto;
+}
+

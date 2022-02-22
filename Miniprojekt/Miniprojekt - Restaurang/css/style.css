@@ -1,0 +1,158 @@
+/* Style */
+*
+{
+    margin:0;
+    padding:0;    
+    font-size: 0.95rem;
+    font-family:'Courgette', cursive;
+}
+body
+{
+    
+    background-color: #2c1616;
+    z-index: -2;
+}
+.om
+{
+    text-align: center;
+    background-color: #FAF3F3;
+    color: #3B0000;
+}
+.var
+{
+    text-align: center;
+    background-color: #FAF3F3;
+    color:#3B0000;
+}
+h1
+{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color:#FAF3F3;
+    text-shadow: #3B0000 1.5px 1.5px;
+}
+.var h1
+{
+    color:#3B0000;
+    text-shadow: #706a62 1.5px 1.5px;
+}
+.om h1
+{
+    color: #3B0000;
+    text-shadow: #706a62 1.5px 1.5px;
+}
+h2
+{
+    font-family: 'Permanent Marker', cursive;
+}
+.menu h2
+{
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+h3
+{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: normal;
+}
+
+p
+{
+    font-family: 'Courgette', cursive;
+}
+.logo
+{
+    display:flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.backgroundimg
+{
+    background-image:url("../img/LOGO_BG.jpg");
+    width: 750px;
+    height: 536px;
+    background-position:auto;
+    margin:auto;
+    z-index: -1;
+}
+hr
+{
+    border:dotted 0.4625rem #927b7b;
+    border-bottom: none;
+    width: 15%;
+    margin: 6.25rem auto;
+}
+/* Navbar */
+nav
+{
+    position:fixed;
+    /* margin:1rem auto 0 auto; */
+    top:1rem;
+    left:50%;
+    /* align-self: flex-start; */
+    height: auto;
+    z-index: 100;
+}
+nav ul
+{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+nav li
+{
+    font-family: 'Courgette', cursive;
+    margin: 1rem 0.5rem 2rem 0.5rem;
+    padding: 0.2rem 0.875rem;
+    border: solid 5px red;
+    border-radius: 1rem;
+    background-color: #ffe2e2;
+    box-shadow: #3B0000 1px 1px;
+
+}
+a
+{
+    font-family: 'Courgette', cursive;
+    font-size: 1.25rem;    
+    text-decoration: none;
+    margin-bottom: 1rem;
+    color:#3B0000;
+    text-shadow: #927b7b 0.5px 0.5px;
+}
+/* menu */
+.menu
+{
+    display: flex;
+    justify-content:space-around;
+    margin: 1rem 7rem 1rem 7rem;
+    border: solid 3px #caa3a3;
+    background-color: #ffe2e2;
+}
+
+.menu ul
+{
+    list-style: none;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+}
+.sides
+{
+    top: 0;
+}
+
+
+/*
+#3B0000  very dark wine red - background
+#FF0000 red - ?
+#FAF3F3 creamy white - text?
+#492F10(bronze) alt #171717(black) - text on white background
+*/
+
+

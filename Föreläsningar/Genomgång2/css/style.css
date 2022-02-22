@@ -1,0 +1,47 @@
+div
+{
+    border: solid 3px khaki;
+    margin-bottom: 3rem;
+    background-color:beige;
+    /* padding-left: 2rem; */
+}
+
+.box1
+{
+    border-color: seagreen;
+    background-color: green
+}
+
+p
+{
+    border: solid 3px aquamarine;
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2
+{
+    border: solid 3px plum;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    margin-left:  2rem;
+}
+
+a
+{
+    border: solid 3px hotpink;
+    margin: 2rem;
+}
+
+h1
+{
+    border: solid 3px honeydew;
+}
+.p2
+{
+    border: indigo solid 0.5em;
+    width: 25%;
+}

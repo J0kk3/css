@@ -1,0 +1,25 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+@media screen and (min-width: 500px)
+{
+    div
+    {
+        background-color: orange;
+    }
+}
+@media (min-width: 800px)
+{
+    div
+    {
+        background-color: yellow;
+    }
+}
+div
+{
+    height: 100vh;
+    background-color: red;
+}
